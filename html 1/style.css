@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,11 +8,12 @@
     list-style: none;
 
 }
-body {     
+
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #1B1726;
 
-}   
+}
 
 img {
     max-width: 100%;
@@ -35,7 +36,7 @@ img {
     padding: 80px 0;
 }
 
-.menu{
+.menu {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,7 +79,7 @@ img {
     width: 25px;
 }
 
-.menu label{
+.menu label {
     cursor: pointer;
     display: none;
 }
@@ -86,8 +87,12 @@ img {
 header-content {
     display: flex;
 }
-
-.header-txt{
+/*CAMBIO QUE YO CRAZY HICE*/
+.header-txt h1 .juegoTitle {
+    font-size: 80px;
+    display: inline-block;
+}
+.header-txt {
     flex-basis: 50%;
 }
 
@@ -100,7 +105,7 @@ header-content {
 
 .header-txt span {
     color: #db17ad;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     background: linear-gradient(90deg, #d32875, #9f195c, #000000);
     -webkit-background-clip: text;
@@ -126,7 +131,9 @@ header-content {
 }
 
 
-.btn-1, .btn-2, .btn-3 {
+.btn-1,
+.btn-2,
+.btn-3 {
     display: inline-block;
     padding: 8px 20px;
     font-size: 15px;
@@ -140,16 +147,16 @@ header-content {
     transition: background-position 0.5s ease, transform 0.2s ease;
 }
 
-    .btn-1:hover,
-    .btn-2:hover,
-    .btn-3:hover {
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
     background-position: right;
     transform: scale(1.05);
 }
 
 
 .Popular {
-    padding: 100px 0 ;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -168,5 +175,3 @@ h2 {
     width: 150px;
 
 }
-
-
