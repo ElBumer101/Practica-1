@@ -1,0 +1,49 @@
+@media (max-width: 991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: block;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ff5a2c;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1b1726;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: block;
+    }
+
+    .header {
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt {
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .burons, .butons {
+        justify-content: center;
+    }
+}
